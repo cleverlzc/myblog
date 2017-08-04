@@ -1,6 +1,6 @@
 
 
-###1、安装及了解
+### 1、安装及了解
 
 CentOs和Ubuntu等大多数系统均可以一键安装。
 
@@ -20,7 +20,7 @@ apt-get install ansible
 
 剩下的边用边了解吧。先用起来。
 
-###2、编辑/etc/ansible/hosts文件
+### 2、编辑/etc/ansible/hosts文件
 
 该文件是ansible的核心文件，里面放置一些你要控制的机器ip或者机器ip组。比如：
 
@@ -37,7 +37,7 @@ apt-get install ansible
 10.2.26.45
 ```
 
-###3、配置SSH
+### 3、配置SSH
 
  将控制机的公钥添加到被控制机器的authorized_keys
 
@@ -49,7 +49,7 @@ apt-get install ansible
  
   [ssh配置](http://blog.csdn.net/qq_35613461/article/details/51941680)，[原理](http://shihlei.iteye.com/blog/2064677)
 
-###4、使用
+### 4、使用
 
 ping所有机器：
 
